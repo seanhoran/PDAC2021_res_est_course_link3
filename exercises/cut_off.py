@@ -86,7 +86,7 @@ def adjust_calculation(df2):
   
 def cut_off():
   
-  df = pd.read_csv("..//PDAC2021_res_est_course_link3//data//Worksheet COGs.csv")
+  df = pd.read_csv("..//pdac2021_res_est_course_link3//data//Worksheet COGs.csv")
   df = df.fillna("")
   df = df[:32].copy()
 
@@ -98,7 +98,7 @@ def cut_off():
   col1, col2 = st.beta_columns([1, 2])
   
   with col1:
-    st.image("..//PDAC2021_res_est_course_link3//images//cog1_block.jpg", width=300)
+    st.image("..//pdac2021_res_est_course_link3//images//cog1_block.jpg", width=300)
   with col2:
     st.write("")
     st.write("")
@@ -124,7 +124,7 @@ def cut_off():
     text = funcs.get_text_block("cog_q2_intro.txt")
     st.markdown(text)
   with col4:
-    st.image("..//PDAC2021_res_est_course_link3//images//nsr_table.png", width=500)
+    st.image("..//pdac2021_res_est_course_link3//images//nsr_table.png", width=500)
     st.write("*Note that the average grade of the deposit is not known until the cut-off is known. This is normally an early approximation and an iterative process. While it does not impact the calculations, once the average grade is known, a simple cash flow analysis can be performed.")
   q2_options = ['A. I have no idea', 
                 'B. The block value is below all cut-off grades', 
