@@ -23,7 +23,7 @@ def about_course():
 
     col1, col2 = st.beta_columns([1,2.5])
     with col1:
-      st.image("..//PDAC2021_res_est_course_link3//headshots//" + ucase_name + ".jpg", use_column_width=True)
+      st.image("..//pdac2021_res_est_course_link3//headshots//" + ucase_name + ".jpg", use_column_width=True)
       text = funcs.get_text_block("title_" + lcase_name + ".txt")
       st.markdown(text)
     with col2:
