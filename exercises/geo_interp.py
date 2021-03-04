@@ -35,7 +35,7 @@ def geo_interp():
         st.write("Litho")
         st.write("")
         st.write("")
-        st.image("..//PDAC2021_res_est_course_link3//images//litho.jpg", width=400)
+        st.image("..//pdac2021_res_est_course_link3//images//litho.jpg", width=400)
 
     with col2:
 
