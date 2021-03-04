@@ -45,7 +45,7 @@ def ex_var(example=1,
     st.write("")
     st.write("")
     st.write("")
-    st.image("..//PDAC2021_res_est_course_link3_link2//images//" + im, width=500)
+    st.image("..//PDAC2021_res_est_course_link3//images//" + im, width=500)
     
   return struct_type, nugget, srange
   
