@@ -67,8 +67,8 @@ if exercise == radio_options[2]:
 if exercise == radio_options[3]:
   variograms.variograms()
 if exercise == radio_options[4]:
-#   block_modelling.block_modelling()
-  interp.block_modelling()
+  block_modelling.block_modelling()
+#   interp.block_modelling()
 if exercise == radio_options[5]:
   cut_off.cut_off()
 if exercise == radio_options[6]:
